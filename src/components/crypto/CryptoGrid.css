@@ -13,9 +13,7 @@
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+
 
 @keyframes logo-spin {
   from {
@@ -36,6 +34,14 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+.app-container {
+  max-width: 1400px;
+  padding: 2rem 0;
+  margin: auto;
+}
+
+.crypto-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
 }

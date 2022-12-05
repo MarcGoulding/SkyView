@@ -1,0 +1,13 @@
+.crypto {
+  border: 1px solid rgba(128, 128, 128, 0.483);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.info {
+  color: rgba(128, 128, 128, 0.483);
+}
+
+.label {
+  color: skyblue;
+}
